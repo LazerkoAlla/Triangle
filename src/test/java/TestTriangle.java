@@ -105,33 +105,33 @@ public class TestTriangle {
 
     @Test(dataProvider = "positiveData")
     public void validatepositiveNumbers(boolean actualResult, boolean expectedResult){
-        Assert.assertEquals(actualResult, expectedResult, "the result is not expected");
+        Assert.assertEquals(actualResult, expectedResult, "неверные данные");
     }
 
 
     @Test(dataProvider = "triangleData")
     public void validateTriangleData(boolean actualResult, boolean expectedResult){
-        Assert.assertEquals(actualResult, expectedResult, "triangle does not exist");
+        Assert.assertEquals(actualResult, expectedResult, "треугольник не существует");
     }
 
 
     @Test(dataProvider = "ravnostoronnyTriangleData")
     public void validateRavnostoronnyTriangle(boolean actualResult, boolean expectedResult){
-        Assert.assertEquals(actualResult, expectedResult, "triangle does not exist");
+        Assert.assertEquals(actualResult, expectedResult, "неверные данные");
     }
 
     @Test(dataProvider = "ravnobedrennyTriangleData")
     public void validateRavnobedrennyTriangle(boolean actualResult, boolean expectedResult){
-        Assert.assertEquals(actualResult, expectedResult, "triangle does not exist");
+        Assert.assertEquals(actualResult, expectedResult, "неверные данные");
     }
 
     @Test(dataProvider = "triangleType")
     public void checkingTriangleType(String actualResult, String expectedResult){
-        Assert.assertEquals(actualResult, expectedResult, "triangle does not exist");
+        Assert.assertEquals(actualResult, expectedResult, "треугольник не существует");
     }
 
-    @Test(dataProvider = "raznostoronnyTriangleData") 
+    @Test(dataProvider = "raznostoronnyTriangleData")
     public void validateRaznostoronnyTriangle(boolean actualResult, boolean expectedResult){
-        Assert.assertEquals(actualResult, expectedResult, "triangle does not exist");
+        Assert.assertEquals(actualResult, expectedResult, "неверные данные");
     }
 }
